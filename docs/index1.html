@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mara Los Photography</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="navbar">
+            <a style="float:left"><div><img src="/assets/logo.png"></div></a>
+            <a href="/"><div class="navbar-noselect">CONTACT</div></a>
+            <a href="/"><div class="navbar-noselect">TARIEVEN</div></a>
+            <a href="/"><div class="navbar-noselect">PORTFOLIO</div></a>
+            <a href="/"><div class="navbar-select">HOME</div></a>
+        </div>
+    </div>
+    <div id="header_bg" class="title-container">
+        <div class="title-header-container">
+            <h1>Mara Los Photography</h1>
+        </div>
+    </div>
+    
+    <div class="body-container">
+            <div class="body-text-container">
+                <h2>Welkom bij Mara Los Photography</h2>
+                <h4>"We take photos as a return ticket to a moment otherwise gone"</h4>
+                <p>Dat is mijn motto tijdens het fotograferen. Naast mooie foto's wil ik ook graag een mooie herinnering mee geven. Een mooie herinnering aan je paard of pony, je geliefden, je beste vrienden, je trouwe maatje of een speciaal moment.</p>  
+                <div class="whitespace"></div>
+                <h3>Even voorstellen...</h3>
+                <div class="voorstellen-container">
+                    <p>Mijn naam is Mara Los (01/05/2001) en ik kom uit Hengelo, mijn passie voor paarden en fotografie is samengesmolten tot een passie voor paardenfotografie. Naast paarden, fotografeer ik ook regelmatig mensen en honden, maar op aanvraag is er van alles mogelijk en sta ik bijna overal wel voor open.<br><br>
+                    Toen ik in 2015 mijn eigen paard had, vond ik het altijd leuk om mijn vaders camera te pakken om daarmee de paarden in de weides en paddocks te fotograferen. Ook de voorbij rennende honden legde ik graag vast op beeld. Ik besloot mijn eigen camera te kopen en hobbymatig te gaan fotograferen, maar ik kreeg al snel vragen van mensen om mij heen of ik hun paarden ook wilde fotografen, zo begon ik Mara Los Photography.</p>
+                    
+                    <img src="/assets/mara1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2020-2021 Mara Los Photography</p>
+    </div>
+    
+    <script>
+
+        var bg = document.getElementById("header_bg");
+        window.addEventListener("scroll", () => {
+            var scroll = window.scrollY;
+            bg.style.backgroundPositionY = "calc(50% + "+0.5*scroll+"px)";
+        })
+    </script>
+</body>
+</html>
