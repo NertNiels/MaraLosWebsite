@@ -18,7 +18,7 @@
     </div>
     <div id="header_bg" class="title-container">
         <div class="title-header-container">
-            <h1>Mara Los Photography</h1>
+            <h1 id="title-header">Mara Los Photography</h1>
         </div>
     </div>
     
@@ -102,9 +102,11 @@
     <script>
 
         var bg = document.getElementById("header_bg");
+	var title = document.getElementById("title-header");
         window.addEventListener("scroll", () => {
             var scroll = window.scrollY;
             bg.style.backgroundPositionY = "calc(50% + "+0.5*scroll+"px)";
+	    title.style.opacity= 100-0.25*scroll+"%";
         });
     </script>
 
